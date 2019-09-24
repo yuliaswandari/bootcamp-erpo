@@ -1,0 +1,27 @@
+Build Todo Apps berdasarkan 2 module: auth dan todo
+######
+
+Rancanglah DB dengan 2 table:
+Table t_user : untuk fitur register dan login
+User_username
+User_fullname
+Table t_todo : untuk fitur todo apps
+
+####
+Task selanjutnya:
+1. File modules/todo/views/v_todo . Buatlah templating dimasukkan ke:
+Application/views/template.
+2. Pisahkan menjadi file: header.php , content.php , footer.php
+
+3. Buatlah module auth:
+- Register berisikan inputan [nama lengkap, username, email, password, no_hp, captchta]
+- Login inputan username dan password
+- Login sukses masuk ke module todo
+
+4. Buatlah module todo:
+- Buat lah todo list apps sederhana:
+- Create task todo : name task, tanggal due date, deskripsi, status task [new, progress, done]
+- Edit task : untuk merubah dan update status
+- View detail task todo
+- Delete / archive
+- Buat 3 bagian : TASK LIST | TASK DONE | TASK ARCHIVE
